@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .container {
+        width: 95%;
+        margin-inline: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .list {
+        list-style: none;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      .item {
+        border: 2px solid black;
+      }
+      .color {
+        width: 25px;
+        height: 25px;
+        background-color: black;
+        display: block;
+      }
+
+      .content {
+        width: 95%;
+        margin-inline: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .noteList {
+        list-style: none;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+      }
+      .listLink {
+        border: 2px solid black;
+      }
+      .listColor {
+        width: 25px;
+        height: 25px;
+        background-color: black;
+        display: block;
+      }
+    </style>
+    <div class="container">
+      <h1>SmartPones Iphone</h1>
+      <ul id="productList" class="list">
+        <li class="item">
+          <img src="" alt="" />
+          <h1>nomi-1</h1>
+          <p>narxi - 123</p>
+          <p>xotirasi-123</p>
+          <span class="color"></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>Notebooks</h1>
+      <ul id="contentlist" class="noteList">
+        <li class="listLink">
+          <img src="" alt="" />
+          <h1>nomi-1</h1>
+          <p>narxi-1</p>
+          <span class="listColor"></span>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
