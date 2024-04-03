@@ -52,13 +52,13 @@ let maxsulot2 = [
     img: "https://ipmac.uz/images/detailed/12/lenovo-v15-g2-itl-82kb00mmru-seryj-103066847-1_krxg-4u.jpg",
     name: "Lenova IdeaPad",
     color: "black",
-    prise: 500,
+    prise: 300,
   },
   {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREEOLZ7rsJ-S-8ufyWfGRJB_uaQP7Xl8TSVxrzZH5hfQ&s",
     name: "Xiaomi Notebook",
     color: "black",
-    prise: 500,
+    prise: 450,
   },
   {
     img: "https://i5.walmartimages.com/seo/HP-Stream-14-Laptop-Intel-Celeron-N4000-4GB-SDRAM-32GB-eMMC-Office-365-1-yr-Royal-Blue_4f941fe6-0cf3-42af-a06c-7532138492fc_2.cb8e85270e731cb1ef85d431e49f0bf2.jpeg",
@@ -70,7 +70,7 @@ let maxsulot2 = [
     img: "https://api.idea.uz/storage/products/May2023/N9rrgleWSrKRHSONkedT.png",
     name: "Lenova V15",
     color: "gray",
-    prise: 500,
+    prise: 400,
   },
 ];
 
@@ -79,7 +79,7 @@ let htmlContent = "";
 
 maxsulot2.forEach(({ name, prise, color, img }) => {
   let contentLi = ` <li class="listLink">
-    <img src="${img}" alt="" width='200'  height:'200'/>
+    <img src="${img}" alt="" width='200' height:'200'/>
     <h1>${name}</h1>
     <p>${prise}</p>
     <span style= 'background: ${color};' class="listColor"></span>
